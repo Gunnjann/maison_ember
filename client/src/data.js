@@ -1,0 +1,12 @@
+export const categories = ['All', 'Starters', 'Mains', 'Desserts', 'Beverages']
+
+export const fallbackMenu = [
+  { id:'d1', name:'Charred Carrot & Labneh', category:'Starters', description:'Smoked carrots, whipped labneh, pistachio, herb oil.', price:420, vegetarian:true, featured:true, image:'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85' },
+  { id:'d2', name:'Wild Mushroom Velouté', category:'Starters', description:'Seasonal mushrooms, thyme, toasted sourdough.', price:380, vegetarian:true, featured:false, image:'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85' },
+  { id:'d3', name:'Ember-Roasted Cauliflower', category:'Mains', description:'Tandoor-spiced cauliflower, saffron cream, toasted almonds.', price:690, vegetarian:true, featured:true, image:'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85' },
+  { id:'d4', name:'Peppercorn Tenderloin', category:'Mains', description:'Seared tenderloin, peppercorn jus, potato pavé, greens.', price:1450, vegetarian:false, featured:true, image:'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85' },
+  { id:'d5', name:'Saffron Butter Chicken', category:'Mains', description:'Slow-cooked chicken, saffron makhani, fragrant rice.', price:890, vegetarian:false, featured:false, image:'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=1000&q=85' },
+  { id:'d6', name:'Dark Chocolate Crémeux', category:'Desserts', description:'70% chocolate, sea salt, hazelnut praline.', price:360, vegetarian:true, featured:true, image:'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1000&q=85' },
+  { id:'d7', name:'Rose & Pistachio Kulfi', category:'Desserts', description:'House-made kulfi, rose syrup, pistachio crumble.', price:320, vegetarian:true, featured:false, image:'https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1000&q=85' },
+  { id:'d8', name:'House Botanical Cooler', category:'Beverages', description:'Cucumber, basil, lime, sparkling water.', price:240, vegetarian:true, featured:false, image:'/images/house-botanical-cooler.jpg' },
+]
